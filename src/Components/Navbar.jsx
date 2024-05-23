@@ -25,7 +25,7 @@ const Navbar = ()=>{
            
         </div>
         <div className={!nav ? 'fixed left-0 top-1 w-[60%] border-r bg-black border-r-gray-100 h-full': 'hidden'}>
-        <h1 className="text-3xl font-bold m-6 text-[#ff2c2c] ">Ecom</h1>
+        <h1 className="text-3xl font-bold m-6 text-[orange] ">Ecom.</h1>
         <ul className='m-6 uppercase'>
             <li className="p-4 border-b border-gray-700">Home</li>
             <li className="p-4 border-b border-gray-700">Category</li>
