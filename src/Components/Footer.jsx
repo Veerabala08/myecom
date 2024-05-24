@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-[orange] text-black" >
-        <div className="h-auto max-w-4xl p-4 grid gap-4 grid-cols-3">
+        <div className="h-auto mr-auto  p-4 flex gap-8 flex-wrap ">
           <div>
             <p className="text-xl font-bold pb-1">Get to know us</p>
             <ul>
@@ -20,8 +20,8 @@ const Footer = () => {
               <li className="p-1 pl-3">Linked In</li>
             </ul>
           </div>
-          <div>
-            <p className="text-2xl font-bold pb-1">Ecom.</p>
+          <div className="ml-auto max-w-xl" >
+            <p className="text-2xl font-bold pb-1 ">Ecom.</p>
             <p className="pt-1">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
               quam voluptate eius blanditiis commodi, ex vel adipisci dicta
